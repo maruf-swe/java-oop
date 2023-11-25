@@ -18,10 +18,12 @@ public class ClassObjectExample {
         return name;
     }
 
+    
     // method 2
     public String getBreed() {
         return breed;
     }
+    
 
     // method 3
     public int getAge() {
@@ -32,11 +34,13 @@ public class ClassObjectExample {
     public String getColor() {
         return color;
     }
+    
 
     public String toString(){
         return ("Hi my name is "+ this.getName() +"\nMy Bread is "+this.getBreed() + " my color is "+this.getColor());
     }
 
+    
     public static void main(String[] args) {
         ClassObjectExample clob = new ClassObjectExample("Reddy","Germany", 5,"Black");
         System.out.println(clob.age);
